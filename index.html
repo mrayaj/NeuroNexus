@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NeuroNexus Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Internship Registration Form</h2>
+    <form>
+      <label>Full Name:</label>
+      <input type="text" name="fullname" required>
+
+      <label>Contact Number:</label>
+      <input type="tel" name="contact" required>
+
+      <label>Address:</label>
+      <textarea name="address" rows="3" required></textarea>
+
+      <label>Company Name:</label>
+      <input type="text" name="company" required>
+
+      <label>Email Address:</label>
+      <input type="email" name="email" required>
+
+      <label>Department:</label>
+      <select name="department" required>
+        <option value="">Select</option>
+        <option>HR</option>
+        <option>Sales</option>
+        <option>Development</option>
+        <option>Marketing</option>
+        <option>Others</option>
+      </select>
+
+      <label>Gender:</label>
+      <div class="gender-options">
+        <label><input type="radio" name="gender" value="Male"> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+        <label><input type="radio" name="gender" value="Prefer not to say"> Prefer not to say</label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
